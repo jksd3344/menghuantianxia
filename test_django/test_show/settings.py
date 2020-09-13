@@ -63,17 +63,7 @@ DATABASES = {
     }
 }
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql', # 数据库引擎
-#         'NAME': 'django_mysql', # 数据库名
-#         'USER': 'root', # 账号
-#         'PASSWORD': 'jksd3344', # 密码
-#         'HOST': '127.0.0.1', # HOST
-#         'POST': 3306, # 端口
-#
-#     }
-# }
+
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.7/topics/i18n/
