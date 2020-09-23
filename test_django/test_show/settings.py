@@ -56,13 +56,23 @@ WSGI_APPLICATION = 'test_show.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.7/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#     }
+# }
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
-}
-
+     'default': {
+         # 配置使用mysql
+         'ENGINE': 'django.db.backends.mysql',     # 数据库产品
+         'HOST': "localhost",           # 数据库ip
+         'PORT': 3306,                  # 数据库端口
+         'USER': "root",                # 用户名
+         'PASSWORD': "jkas3344",           # 密码
+         'NAME': "test",         # 数据库名
+     }
+ }
 
 
 # Internationalization
