@@ -64,13 +64,12 @@ WSGI_APPLICATION = 'test_show.wsgi.application'
 # }
 DATABASES = {
      'default': {
-         # 配置使用mysql
-         'ENGINE': 'django.db.backends.mysql',     # 数据库产品
-         'HOST': "localhost",           # 数据库ip
-         'PORT': 3306,                  # 数据库端口
-         'USER': "root",                # 用户名
-         'PASSWORD': "jkas3344",           # 密码
-         'NAME': "test",         # 数据库名
+         'ENGINE': 'django.db.backends.mysql',
+         'HOST': "localhost",
+         'PORT': 3306,
+         'USER': "root",
+         'PASSWORD': "jkas3344",
+         'NAME': "test",
      }
  }
 
